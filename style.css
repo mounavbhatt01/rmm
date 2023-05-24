@@ -27,6 +27,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #110101;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .logo{
