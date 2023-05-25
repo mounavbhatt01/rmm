@@ -27,10 +27,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: auto;
     background-color: #110101;
     position: fixed;
-    left: 0;
+    right: 0;
     top: 0;
+    width: 100%;
 }
 
 .logo{
@@ -40,7 +42,7 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
 
 nav ul li a{
@@ -71,7 +73,24 @@ nav ul li a:hover::after{
     font-size:45px;
     color: white;
 }
-
+.btn11 {
+    display: inline-block;
+    background-color: #388bd8;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+   
+    border: 4px double #cccccc; /* add this line */
+    border-radius: 50px; /* add this line */
+    font-size: 28px; /* add this line */
+  }
+  .btn11:hover {
+    background-color: rgb(0, 19, 128);
+  }
+.btn11 a{
+    text-decoration: none;
+}
 /*-------------want it repaired-------------*/
 #about{
     padding: 80px 0;
@@ -97,6 +116,7 @@ nav ul li a:hover::after{
     font-size: 70px;
     font-weight: 600;
     padding-left: 30px;
+    text-align: center;
 }
 .para{
     font-size: 30px;
@@ -202,4 +222,40 @@ input[type="radio"]{
 .accordion input[type="radio"]:checked + label +.content{
     max-height: 200px;
     padding: 10px 10px 20px;
+}
+
+/*-----------------------------contact us-----------------------------*/
+#contact{
+    padding: 40px 40px;
+    text-align: center;
+    font-size: 10px;
+    background: darkblue;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background:red ;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background:lightblue ;
+    padding: 15px;
+    margin:15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
 }
