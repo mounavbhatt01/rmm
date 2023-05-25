@@ -116,7 +116,7 @@ nav ul li a:hover::after{
     font-size: 70px;
     font-weight: 600;
     padding-left: 30px;
-    text-align: center;
+   
 }
 .para{
     font-size: 30px;
@@ -234,7 +234,10 @@ input[type="radio"]{
 
 .btn.btn2{
     display: inline-block;
-    background:red ;
+    background-color:  #388bd8 ;
+}
+.btn.btn2:hover{
+    background-color: rgb(13, 42, 204);
 }
 
 .contact-right form{
