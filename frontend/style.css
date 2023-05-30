@@ -235,13 +235,20 @@ input[type="radio"]{
     background-image: url(back3.png);
     background-size: cover ;
     background-position:center;
+    
+}
+.sub-title{
+    text-align: center;
 }
 
 .btn.btn2{
     display: inline-block;
+    text-align: center;
     background-color:  #388bd8 ;
+
 }
 .btn.btn2:hover{
+    text-align: center;
     background-color: rgb(13, 42, 204);
 }
 
@@ -249,7 +256,10 @@ input[type="radio"]{
     border: none;
     background-color: none;
     outline: 0;
-    width: 100%;
+    margin: auto;
+  width: 50%;
+    text-align: center;
+    width: 600px;
 }
 
 form input,form textarea{
@@ -257,6 +267,7 @@ form input,form textarea{
     border: 0;
     outline: none;
     background:lightblue ;
+    text-align: center;
     padding: 15px;
     margin:15px;
     color: rgb(0, 0, 0);
@@ -271,6 +282,7 @@ form input,form textarea{
 form .btn2{
     padding: 14px 60px;
     font-size: 15px;
+    text-align: center;
     margin-top: 10px;
     cursor: pointer;
 }
