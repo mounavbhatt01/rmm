@@ -1,0 +1,23 @@
+{
+  "name": "rmm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mounavbhatt01/rmm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mounavbhatt01/rmm/issues"
+  },
+  "homepage": "https://github.com/mounavbhatt01/rmm#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "xlsx": "^0.18.5"
+  }
+}
